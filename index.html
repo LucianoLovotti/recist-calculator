@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora RECIST 1.1</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <h1>Calculadora RECIST 1.1</h1>
+
+  <h3>Lesiones Baseline</h3>
+  <input type="number" id="b1" placeholder="Lesión 1 (mm)">
+  <input type="number" id="b2" placeholder="Lesión 2 (mm)">
+  <input type="number" id="b3" placeholder="Lesión 3 (mm)">
+  <input type="number" id="b4" placeholder="Lesión 4 (mm)">
+  <input type="number" id="b5" placeholder="Lesión 5 (mm)">
+
+  <h3>Lesiones Follow-up</h3>
+  <input type="number" id="f1" placeholder="Lesión 1 (mm)">
+  <input type="number" id="f2" placeholder="Lesión 2 (mm)">
+  <input type="number" id="f3" placeholder="Lesión 3 (mm)">
+  <input type="number" id="f4" placeholder="Lesión 4 (mm)">
+  <input type="number" id="f5" placeholder="Lesión 5 (mm)">
+
+  <button id="calcular">Calcular RECIST</button>
+
+  <label for="reporte">Reporte:</label>
+  <textarea id="reporte" readonly></textarea>
+  <button id="copiar">Copiar al portapapeles</button>
+
+  <p>Desarrollado por Dr. Luciano Lovotti - 2025</p>
+
+  <script src="app.js"></script>
+</body>
+</html>
